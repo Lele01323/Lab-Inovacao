@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Desafio 01 React</title>
+</head>
+<body>
+    <h1>Desafio 01 React</h1>
+
+    <form name="newsletter">
+        <div class="name">
+            <label>Nome Completo:</label>
+            <input type="text" size="30" id="name">
+        </div>
+
+        <div class="email">
+            <label>Email:</label>
+            <input type="text" size="10" id="email" placeholder="nome@email.com">
+        </div>
+
+        <div class="phoneNumber">
+            <label>Telefone:</label>
+            <input type="text" size="10" id="phoneNumber">
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="Enviar" id="btn" onclick="mensagem(newsletter.email)">
+        </div>
+
+        <div id="msgEmail"></div>
+
+    </form>
+
+<script src="validacao.js"></script>
+
+</body>
+</html>
